@@ -1,0 +1,40 @@
+body {
+  font-family: monospace;
+  background-color:rgb(218, 247, 166);
+
+}
+
+h1 {
+  font-size: 60px;
+  color:rgb(255, 195, 0);
+  font-weight: 900;
+  font-style: oblique;
+  font-stretch: ultra-expanded;
+}
+
+h2 {
+  font-size: 40px;
+  color: 255, 195, 0;
+}
+p {
+  font-size: 24px;
+  font-family: monospace;
+  border-width: thick;
+  border-style: groove;
+  border-color:rgb(255, 87, 51);
+  padding: 8px;
+  background-color:rgb(210, 235, 175);
+
+}
+
+ul{
+  font-size: 20px;
+  color:rgb(255, 87, 51);
+  font-weight: bold;
+}
+
+a {
+  color:rgb(255, 87, 51);
+  font-weight: bolder;
+  cursor: zoom-in;
+}
