@@ -1,0 +1,51 @@
+
+.neonText {
+  //neon text from https://css-tricks.com/
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+body {
+  font-size: 60px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}
+.press {
+  //button from developer.mozilla.org
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(0,128,128);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+ .press:hover {
+    background-color: rgba(0, 128, 129, 1);
+}
+
+.press:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.javaScriptDiv{
+  position: relative;
+  left: 100px;
+}
